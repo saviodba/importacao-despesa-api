@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b9ac1b9f-11f9-4d14-80c4-1adabcdbc9be</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orcamento.Application\Orcamento.Application.csproj" />
+    <ProjectReference Include="..\Orcamento.Infrastructure\Orcamento.Infrastructure.csproj" />
+    <ProjectReference Include="..\Orcamento.Core\Orcamento.Core.csproj" />
+  </ItemGroup>
+
+</Project>

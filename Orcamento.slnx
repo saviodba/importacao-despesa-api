@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Orcamento.Api/Orcamento.Api.csproj" />
+    <Project Path="src/Orcamento.Application/Orcamento.Application.csproj" />
+    <Project Path="src/Orcamento.Core/Orcamento.Core.csproj" />
+    <Project Path="src/Orcamento.Infrastructure/Orcamento.Infrastructure.csproj" />
+  </Folder>
+</Solution>

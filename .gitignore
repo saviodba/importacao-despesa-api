@@ -1,0 +1,118 @@
+
+# ==========================================
+# .NET - Build e compilação
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+publish/
+out/
+
+# ==========================================
+# Visual Studio
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==========================================
+# JetBrains Rider
+# ==========================================
+.idea/
+*.sln.iml
+
+# ==========================================
+# Configurações locais e secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Certificados e chaves
+*.pfx
+*.p12
+*.key
+*.pem
+*.cer
+
+# ==========================================
+# Testes e cobertura
+# ==========================================
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# ==========================================
+# NuGet
+# ==========================================
+*.nupkg
+*.snupkg
+.nuget/
+
+# ==========================================
+# Docker
+# ==========================================
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# ==========================================
+# Logs e arquivos temporários
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# ==========================================
+# Sistema operacional
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Banco de dados local
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Node.js (caso exista frontend)
+# ==========================================
+node_modules/
+.next/
+dist/
+.npm/
+
+# ==========================================
+# Arquivos de publicação
+# ==========================================
+*.publish.xml
+*.pubxml.user
+k8s/
