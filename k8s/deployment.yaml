@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/saviodev/protege-importacao-api:latest
+          image: ghcr.io/saviodba/protege-importacao-api:b7ac43116684
 
           ports:
             - containerPort: 8080
