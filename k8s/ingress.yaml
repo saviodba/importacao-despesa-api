@@ -1,0 +1,19 @@
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: protege-importacao-api
+  namespace: protege-importacao
+
+spec:
+  rules:
+    - host: importacao.seudominio.com.br
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: protege-importacao-api
+                port:
+                  number: 80
